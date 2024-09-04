@@ -1,0 +1,143 @@
+@font-face {
+  font-family: orangee;
+  src: url("./fontStyles/orange\ juice\ 2.0.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Grey+Qo&family=Pacifico&display=swap');
+
+
+/* .mainDiv{
+  text-align: center;
+} */
+
+form{
+  display: inline-block;
+  text-align: center;
+  background-color: azure;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+label{
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  text-align: justify;
+}
+
+input{
+  display: inline;
+  margin: 10px;
+}
+
+legend{
+  font-size: 1.7rem;
+  color: darkblue;
+  text-shadow: 10px 10px 50px green;
+  font-family: orangee;
+  /* width: fit-content; */
+}
+
+span{
+  display: inline-block;
+  width: 70px;
+  margin-left: 20px;
+}
+
+button{
+  box-shadow: 10px 10px 10px black;
+  margin: 20px;
+}
+
+p{
+  text-shadow: 10px 10px 50px darkblue;
+  /* border: 6px soild black; */
+  color: darkcyan;
+  margin: 20px;
+  text-align: left;
+  font-family: "Pacifico", cursive;
+  font-weight: 600;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.totPara{
+  background-color: lightblue;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+}
+
+.legendSpan span{
+  width: fit-content;
+  display: inline-block;
+  margin: 0px;
+}
+
+.interForm{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+
+
+.studentDetailsDiv, .subjectsDiv, .studentMarksDiv2, .studentMarksDiv1, .resultDiv, .tableForm{
+  margin: 20px;
+}
+
+.studentDetailsDiv{
+  width: 100%;
+}
+
+.subjectsDiv{
+  width: 360px;
+}
+
+.studentMarksDiv1{
+  width: 360px;
+}
+
+.studentMarksDiv2{
+  width: 360px;
+}
+
+.resultDiv{
+  width: 100%;
+}
+
+.tableForm{
+  width: 100%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+table{
+  border: 2px solid black;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableSubjHeading td{
+  background-color: lightpink;
+  margin: 20px;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 0.1rem;
+}
+
+th{
+  background-color: lightblue;
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+caption{
+  border: 2PX solid black;;
+}
+
+td,th{
+  border: 2px solid black;
+  padding: 10px;
+}
